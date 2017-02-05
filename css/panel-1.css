@@ -4,3 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.panel:hover .icon-1{
+  color: #76BC8C;
+}

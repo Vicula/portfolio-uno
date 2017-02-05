@@ -4,3 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.panel:hover .icon-5{
+  color: #FBB91D;
+}
