@@ -30,6 +30,16 @@ body{
   transition: 1s;
 }
 
+.icon{
+  font-size: 8vw;
+  margin: auto;
+  color: white;
+  position: relative;
+  left: 6vw;
+  top: 40vh;
+  text-shadow:0.3vw 0.8vw 0.5vw rgba(45,45,45,0.5);
+}
+
 .panel:hover{
 background: radial-gradient(circle, #fff ,#ccc);
 

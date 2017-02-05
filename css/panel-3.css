@@ -4,3 +4,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.icon-3{
+  /*color: #DD4436;*/
+}
+
+.panel:hover .icon-3{
+  color: #DD4436;
+}
