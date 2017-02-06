@@ -28,6 +28,7 @@ body{
   height: 100vh;
   width: 20vw;
   transition: 1s;
+  border: 0.1vw solid rgba(180,180,180,0.2);
 }
 
 .icon{
@@ -56,4 +57,10 @@ background: radial-gradient(circle, #fff ,#ccc);
   50%{
     top: 35vh;
   }
+}
+
+.shadow-box{
+  width: 100%;
+  height: 100%;
+
 }

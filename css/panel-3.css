@@ -18,6 +18,8 @@
 .sel-3 .panel-3{
   width: 100vw;
   margin: auto -5vw;
+  align-self: center;
+  height: 98vh;
   z-index: 3;
 }
 
@@ -36,32 +38,41 @@
   height: 95vh;
   align-self: center;
   position: relative;
-  right: -3vw;
+  right: 3vw;
   z-index: 2;
+}
+
+.sel-3 .panel-2 .shadow-box{
+  background: linear-gradient(to left, rgba(25,25,25,0.9), rgba(0,0,0,0))
 }
 .sel-3 .panel-1{
   transform: skewY(-20deg) rotateY(5deg);
   height: 90vh;
-  align-self: center;
   position: relative;
-  right: -5vw;
   z-index: 1;
 }
-
+.sel-3 .panel-1 .shadow-box{
+  background: linear-gradient(to left, rgba(25,25,25,0.9), rgba(0,0,0,0))
+}
 .sel-3 .panel-4{
   transform: skewY(20deg) rotateY(-5deg);
   height: 95vh;
   align-self: center;
   position: relative;
-  left: -3vw;
+  left: 3vw;
   z-index: 2;
+}
+.sel-3 .panel-4 .shadow-box{
+  background: linear-gradient(to right, rgba(25,25,25,0.9), rgba(0,0,0,0))
 }
 
 .sel-3 .panel-5{
   transform: skewY(20deg) rotateY(-5deg);
   height: 90vh;
-  align-self: center;
   position: relative;
-  left: -5vw;
   z-index: 1;
+}
+
+.sel-3 .panel-5 .shadow-box{
+  background: linear-gradient(to right, rgba(25,25,25,0.9), rgba(0,0,0,0))
 }
