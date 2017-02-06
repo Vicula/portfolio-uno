@@ -21,6 +21,33 @@
   align-self: center;
   height: 98vh;
   z-index: 3;
+  overflow: hidden;
+}
+.sel-3 .panel-3 .shadow-box{
+  display: none;
+}
+.sel-3 .panel-3 .panel-content .bar-1{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  top: -12vh;
+  transform: rotate(10deg);
+}
+.sel-3 .panel-3 .panel-content .bar-2{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  left: -2vw;
+  top: -30vh;
+  transform: rotate(-6deg);
+}
+.sel-3 .panel-3 .panel-content .top{
+  background: linear-gradient(to bottom, #ECECEC, #fff,#fff);
+  /*background: white;*/
+  width: 100%;
+  height: 60vh;
 }
 
 .sel-3 .panel-3:hover{
