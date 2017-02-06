@@ -37,6 +37,7 @@
   position: relative;
   top: -12vh;
   transform: rotate(10deg);
+  transition: 2s;
 }
 .sel-2 .panel-2 .panel-content .bar-2{
   background: white;
@@ -46,12 +47,14 @@
   position: relative;
   top: -30vh;
   transform: rotate(-6deg);
+  transition: 2s;
 }
 .sel-2 .panel-2 .panel-content .top{
   background: linear-gradient(to bottom, #ECECEC, #fff,#fff);
   /*background: white;*/
   width: 100%;
   height: 60vh;
+  transition: 1s;
 }
 .sel-2 .panel-2{
   width: 100vw;
