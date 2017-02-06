@@ -30,12 +30,39 @@
 .sel-2 .panel-1 .shadow-box{
   background: linear-gradient(to left, rgba(25,25,25,0.9), rgba(0,0,0,0))
 }
+.sel-2 .panel-2 .panel-content .bar-1{
+  background: white;
+  width: 115%;
+  height: 20vh;
+  position: relative;
+  top: -12vh;
+  transform: rotate(10deg);
+}
+.sel-2 .panel-2 .panel-content .bar-2{
+  background: white;
+  left: -2vh;
+  width: 115%;
+  height: 20vh;
+  position: relative;
+  top: -30vh;
+  transform: rotate(-6deg);
+}
+.sel-2 .panel-2 .panel-content .top{
+  background: linear-gradient(to bottom, #ECECEC, #fff,#fff);
+  /*background: white;*/
+  width: 100%;
+  height: 60vh;
+}
 .sel-2 .panel-2{
   width: 100vw;
+  overflow: hidden;
   margin: auto -5vw;
   align-self: center;
   height: 98vh;
   z-index: 4;
+}
+.sel-2 .panel-2 .shadow-box{
+  display: none;
 }
 
 .sel-2 .panel-3{

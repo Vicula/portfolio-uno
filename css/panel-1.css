@@ -19,9 +19,35 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.sel-1 .panel-1 .shadow-box{
+  display: none;
+}
+.sel-1 .panel-1 .panel-content .bar-1{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  top: -12vh;
+  transform: rotate(10deg);
+}
+.sel-1 .panel-1 .panel-content .bar-2{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  top: -30vh;
+  transform: rotate(-6deg);
+}
+.sel-1 .panel-1 .panel-content .top{
+  background: linear-gradient(to bottom, #ECECEC, #fff,#fff);
+  /*background: white;*/
+  width: 100%;
+  height: 60vh;
+}
 
 .sel-1 .panel-1{
   width: 100vw;
+  overflow: hidden;
   margin: auto -5vw;
   align-self: center;
   height: 98vh;
