@@ -56,6 +56,10 @@
   height: 60vh;
   transition: 1s;
 }
+.sel-2 .panel:hover .hover-text{
+  display: none;
+}
+
 .sel-2 .panel-2{
   width: 100vw;
   overflow: hidden;

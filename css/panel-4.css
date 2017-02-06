@@ -31,6 +31,11 @@
   right: -1vw;
   top: -12vh;
   transform: rotate(10deg);
+  transition: 1s;
+
+}
+.sel-4 .panel:hover .hover-text{
+  display: none;
 }
 .sel-4 .panel-4 .panel-content .bar-2{
   background: white;
@@ -40,6 +45,29 @@
   left: -2vw;
   top: -30vh;
   transform: rotate(-6deg);
+  transition: 1s;
+
+}
+.sel-4 .panel-4 .panel-content .bar-3{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  left: -2vw;
+  top: -30vh;
+  transform: rotate(-6deg);
+  transition: 1.5s;
+
+}
+.sel-4 .panel-4 .panel-content .bar-4{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  left: -2vw;
+  top: -30vh;
+  transform: rotate(-6deg);
+  transition: 1.5s;
 }
 .sel-4 .panel-4 .panel-content .top{
   background: linear-gradient(to bottom, #ECECEC, #fff,#fff);
@@ -53,6 +81,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.se-4 .panel:hover .hover-text{
+  transform: rotate(30deg);
 }
 
 .sel-4 .panel-3{

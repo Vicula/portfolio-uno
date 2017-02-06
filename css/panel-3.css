@@ -26,6 +26,7 @@
 .sel-3 .panel-3 .shadow-box{
   display: none;
 }
+
 .sel-3 .panel-3 .panel-content .bar-1{
   background: white;
   width: 110%;
@@ -45,8 +46,8 @@
   transition: 1.5s;
   transform: rotate(-6deg);
 }
-.top{
-  height: 0;
+.sel-3 .panel:hover .hover-text{
+  display: none;
 }
 .sel-3 .panel-3 .panel-content .top{
   background: linear-gradient(to bottom, #ECECEC, #fff,#fff);

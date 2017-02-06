@@ -15,6 +15,11 @@ body{
   font-family: 'Julius Sans One', sans-serif;
 }
 
+.hover-text{
+  /*position: absolute;*/
+  display: none;
+}
+
 
 #app-container{
 
@@ -42,11 +47,11 @@ body{
   left: 6.5vw;
   display: inherit;
   top: 40vh;
-  text-shadow: 0.3vw 0.8vw 4vw rgba(45,45,45,0.5);
+  /*text-shadow: 1px 2px 4px #999;*/
 }
- .icon{
-   display: none;
- }
+.icon{
+  display: none;
+}
 
 .panel:hover{
 background: radial-gradient(circle, #fff ,#ccc);
@@ -58,6 +63,23 @@ background: radial-gradient(circle, #fff ,#ccc);
 }
 .shadow-box:hover .panel{
   background: radial-gradient(circle, #fff ,#ccc);
+}
+.shadow-box:hover .hover-text{
+  position: absolute;
+  display: inherit;
+  transition: 5s;
+  bottom: 0;
+  font-size: 7vw;
+  text-align: center;
+  color: white;
+  left: 1vw;
+  font-weight: bolder;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 .panel:hover .icon{
@@ -71,6 +93,9 @@ background: radial-gradient(circle, #fff ,#ccc);
   50%{
     top: 35vh;
   }
+}
+.top{
+  height: 0;
 }
 
 .shadow-box{
