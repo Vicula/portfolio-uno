@@ -3,12 +3,65 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.icon-3{
-  /*color: #DD4436;*/
+  width: 100vw;
 }
 
 .panel:hover .icon-3{
   color: #DD4436;
+}
+
+
+
+.sel-3 .panel{
+  width: 10vw;
+}
+.sel-3 .panel-3{
+  width: 100vw;
+  margin: auto -5vw;
+  z-index: 3;
+}
+
+.sel-3 .panel-3:hover{
+  background: url('../images/pexels-photo-110055.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sel-3 .icon {
+  display: none;
+}
+
+.sel-3 .panel-2{
+  transform: skewY(-20deg) rotateY(5deg);
+  height: 95vh;
+  align-self: center;
+  position: relative;
+  right: -3vw;
+  z-index: 2;
+}
+.sel-3 .panel-1{
+  transform: skewY(-20deg) rotateY(5deg);
+  height: 90vh;
+  align-self: center;
+  position: relative;
+  right: -5vw;
+  z-index: 1;
+}
+
+.sel-3 .panel-4{
+  transform: skewY(20deg) rotateY(-5deg);
+  height: 95vh;
+  align-self: center;
+  position: relative;
+  left: -3vw;
+  z-index: 2;
+}
+
+.sel-3 .panel-5{
+  transform: skewY(20deg) rotateY(-5deg);
+  height: 90vh;
+  align-self: center;
+  position: relative;
+  left: -5vw;
+  z-index: 1;
 }
