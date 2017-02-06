@@ -29,9 +29,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.sel-3 .icon {
-  display: none;
-}
 
 .sel-3 .panel-2{
   transform: skewY(-20deg) rotateY(5deg);

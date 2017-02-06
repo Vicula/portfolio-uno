@@ -31,15 +31,20 @@ body{
   border: 0.1vw solid rgba(180,180,180,0.2);
 }
 
-.icon{
+
+.home .icon{
   font-size: 8vw;
   margin: auto;
   color: white;
   position: relative;
   left: 6.5vw;
+  display: inherit;
   top: 40vh;
   text-shadow: 0.3vw 0.8vw 4vw rgba(45,45,45,0.5);
 }
+ .icon{
+   display: none;
+ }
 
 .panel:hover{
 background: radial-gradient(circle, #fff ,#ccc);
