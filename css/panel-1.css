@@ -124,3 +124,76 @@
 .sel-1 .panel-5 .shadow-box{
   background: linear-gradient(to right, rgba(25,25,25,0.9), rgba(0,0,0,0))
 }
+.sel-1 .panel-1 .content{
+  position: relative;
+  top: -80vh;
+  text-align: center;
+  display: inherit;
+  overflow-y: scroll;
+  transition: 1.5s;
+  z-index: 5;
+}
+
+.sel-1 .panel-1 .content .pic{
+  width: 25vw;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  margin: 1vw;
+}
+
+.sel-1 .panel-1 .content .header{
+  font-size: 5vw;
+}
+
+.sel-1 .panel-1 .content .subtext{
+  font-size: 1.5vw;
+  /*padding: 5vh 10vw;*/
+  color: black;
+  /*margin: 5vh 0;*/
+  margin: 0;
+  margin-left: 5vw;
+  display: inline-block;
+  width: 45%;
+
+}
+
+
+
+.sel-1 .panel-1 .content .picHolder{
+  display: inline-block;
+
+}
+
+.sel-1 .panel-1 .under{
+  position: relative;
+  width: 0;
+  height: 0;
+  z-index: 1;
+
+}
+.sel-1 .panel-1 .under i{
+  position: absolute;
+  font-size: 30vw;
+  z-index: 10;
+  color: rgba(118, 188, 140, 0.1);
+  /*left: -10vw;*/
+  bottom: 30vw;
+  left: 60vw;
+  transition: 2.5s;
+}
+
+.sel-1 .panel-1 .bottom-holder{
+  margin-top: 100px;
+  width: 100%;
+  display: inline-block;
+
+}
+
+.sel-1 .panel-1 .profPic{
+  width: 5vw;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  margin: 1vw;
+}

@@ -121,6 +121,7 @@
 
 .sel-2 .panel-2 .content .subtext{
   padding: 0 15vw;
+  font-size: 1.25vw;
 }
 
 .sel-2 .panel-2 .proj-holder{
@@ -162,6 +163,7 @@
   margin-top: 2vh;
   cursor: pointer;
   width: 10%;
+  font-size: 1.25vw;
   text-decoration: none;
 }
 .sel-2 .panel-2 .seeMore a{
