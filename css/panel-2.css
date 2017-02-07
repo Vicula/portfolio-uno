@@ -138,18 +138,22 @@
   display: inline-block;
   width: 20%;
   margin: 2% 4%;
+  position: relative;
   height: 25vh;
 }
 .sel-2 .panel-2 .proj-box *{
+  padding: 0;
+  margin: 0;
   display: none;
 }
 
-.sel-2 .panel-2 .proj-box:hover .box1{
-  background-color: #2C3E50;
-}
-.sel-2 .panel-2 .proj-box:hover *{
+
+/*.sel-2 .panel-2 .proj-box:hover *{
   display: inherit;
-}
+  background: #2C3E50;
+  color: white;
+  position: relative;
+}*/
 
 .sel-2 .panel-2 .seeMore{
   color: white;
@@ -170,27 +174,47 @@
   text-decoration: underline;
 }
 
-.sel-2 .panel-2 .proj-row .box1{
+.sel-2 .panel-2 .box1{
   background: url("../images/Screen Shot 2017-01-17 at 9.16.21 AM.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.sel-2 .panel-2 .proj-row .box2{
+.sel-2 .panel-2 .box2{
   background: url("../images/Screen Shot 2017-01-17 at 9.14.39 AM.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.sel-2 .panel-2 .proj-row .box3{
+.sel-2 .panel-2 .box3{
   background: url("../images/cliqueUpAuth.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.sel-2 .panel-2 .proj-row .box4{
+.sel-2 .panel-2 .box4{
   background: url("../images/Screen Shot 2017-01-17 at 9.13.01 AM.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/*.sel-2 .panel-2 .proj-row .proj-box:hover .box1{
+  background: none;
+}*/
+
+.sel-2 .panel-2 .under{
+  position: relative;
+  width: 0;
+  height: 0;
+  z-index: 1;
+
+}
+.sel-2 .panel-2 .under i{
+  position: relative;
+  font-size: 30vw;
+  color: rgba(44, 62, 80, 0.1);
+  left: -10vw;
+  top: -50vh;
+  transition: 2.5s;
 }
