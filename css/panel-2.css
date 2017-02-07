@@ -112,4 +112,85 @@
   text-align: center;
   display: inherit;
   overflow-y: scroll;
+  transition: 1.5s;
+}
+
+.sel-2 .panel-2 .content .header{
+  font-size: 4vw;
+}
+
+.sel-2 .panel-2 .content .subtext{
+  padding: 0 15vw;
+}
+
+.sel-2 .panel-2 .proj-holder{
+  width: 100%;
+  transition: 1.5s;
+
+}
+
+.sel-2 .panel-2 .proj-row{
+  width: 100%;
+
+}
+
+.sel-2 .panel-2 .proj-box{
+  display: inline-block;
+  width: 20%;
+  margin: 2% 4%;
+  height: 25vh;
+}
+.sel-2 .panel-2 .proj-box *{
+  display: none;
+}
+
+.sel-2 .panel-2 .proj-box:hover .box1{
+  background-color: #2C3E50;
+}
+.sel-2 .panel-2 .proj-box:hover *{
+  display: inherit;
+}
+
+.sel-2 .panel-2 .seeMore{
+  color: white;
+  /*border: 2px solid white;*/
+  margin: auto;
+  margin-top: 2vh;
+  cursor: pointer;
+  width: 10%;
+  text-decoration: none;
+}
+.sel-2 .panel-2 .seeMore a{
+  color: white;
+
+  text-decoration: none;
+}
+
+.sel-2 .panel-2 .seeMore:hover{
+  text-decoration: underline;
+}
+
+.sel-2 .panel-2 .proj-row .box1{
+  background: url("../images/Screen Shot 2017-01-17 at 9.16.21 AM.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sel-2 .panel-2 .proj-row .box2{
+  background: url("../images/Screen Shot 2017-01-17 at 9.14.39 AM.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sel-2 .panel-2 .proj-row .box3{
+  background: url("../images/cliqueUpAuth.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sel-2 .panel-2 .proj-row .box4{
+  background: url("../images/Screen Shot 2017-01-17 at 9.13.01 AM.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
