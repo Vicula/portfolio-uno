@@ -105,3 +105,11 @@
 .sel-2 .panel-5 .shadow-box{
   background: linear-gradient(to right, rgba(25,25,25,0.9), rgba(0,0,0,0))
 }
+
+.sel-2 .panel-2 .content{
+  position: relative;
+  top: -100vh;
+  text-align: center;
+  display: inherit;
+  overflow-y: scroll;
+}

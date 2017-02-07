@@ -7,8 +7,15 @@
 * {
   box-sizing: border-box;
 }
-
+.shadow-box{
+  transition: 1.5s;
+}
+.content{
+  display: none;
+}
 body{
+  min-width: 100vw;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -18,6 +25,7 @@ body{
 .hover-text{
   /*position: absolute;*/
   display: none;
+  transition: 1.5s;
 }
 
 
