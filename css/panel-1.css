@@ -155,7 +155,7 @@
   margin-left: 5vw;
   display: inline-block;
   width: 45%;
-
+  background: rgba(255,255,255,0.5);
 }
 
 
@@ -184,7 +184,7 @@
 }
 
 .sel-1 .panel-1 .bottom-holder{
-  margin-top: 100px;
+  margin-top: 80px;
   width: 100%;
   display: inline-block;
 

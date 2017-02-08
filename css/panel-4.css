@@ -130,3 +130,26 @@
 .sel-4 .panel-5 .shadow-box{
   background: linear-gradient(to right, rgba(25,25,25,0.9), rgba(0,0,0,0))
 }
+
+.sel-4 .panel-4 .content {
+  display: inherit;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  top: -80vh;
+}
+.sel-4 .panel-4 .under{
+  position: relative;
+  /*width: 0;
+  height: 0;*/
+  z-index: 7;
+
+}
+.sel-4 .panel-4 .under i{
+  position: relative;
+  font-size: 30vw;
+  color: rgba(221, 68, 54, 1);
+  left: -70vw;
+  top: -50vh;
+  transition: 2.5s;
+}
